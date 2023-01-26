@@ -46,6 +46,14 @@
 @import url(../blocks/figure/__pink/figure__pink.css);
 @import url(../blocks/figure/__purple/figure__purple.css);
 
+@import url(../blocks/navtab/navtab.css);
+@import url(../blocks/navtab/__active/navtab__active.css);
+@import url(../blocks/navtab/__container/navtab__container.css);
+@import url(../blocks/navtab/__btn-close/navtab__btn-close.css);
+@import url(../blocks/navtab/__list-box/navtab__list-box.css);
+@import url(../blocks/navtab/__list/navtab__list.css);
+@import url(../blocks/navtab/__link/navtab__link.css);
+
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__container/info__container.css);
 @import url(../blocks/info/__logo/info__logo.css);
