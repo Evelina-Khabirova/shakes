@@ -8,6 +8,7 @@
 }
 
 .privilege__btm-rigth:hover {
+  transform: translate(10px, 0);
   opacity: .3;
 }
 
