@@ -20,11 +20,17 @@
   }
 }
 
+@media screen and (max-width: 970px) {
+  .privilege__btm-left {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .privilege__btm-left {
     margin: 0 6px 0 auto;
-    grid-column-start: 1;
-    grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
   }

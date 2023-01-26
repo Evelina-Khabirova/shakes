@@ -20,6 +20,14 @@
   }
 }
 
+@media screen and (max-width: 970px) {
+  .privilege__btm-rigth {
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .privilege__btm-rigth {
     margin: 0 auto 0 6px;

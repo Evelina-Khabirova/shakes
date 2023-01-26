@@ -39,6 +39,7 @@
 @import url(../blocks/privilege/__btm-rigth/privilege__btm-rigth.css);
 @import url(../blocks/privilege/__card-box/privilege__card-box.css);
 @import url(../blocks/privilege/__card/privilege__card.css);
+@import url(../blocks/privilege/__card/_hidden/privilege__card_hidden.css);
 @import url(../blocks/privilege/__card-img/privilege__card-img.css);
 
 @import url(../blocks/figure/__blue/figure__blue.css);
