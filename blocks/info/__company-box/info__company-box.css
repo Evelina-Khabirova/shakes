@@ -1,0 +1,25 @@
+.info__company-box {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__company-box {
+    margin-right: 0;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .info__company-box {
+    margin: 30px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+  }
+}

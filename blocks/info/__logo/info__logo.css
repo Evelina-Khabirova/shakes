@@ -1,0 +1,10 @@
+.info__logo {
+  width: 230px;
+  height: 28px;
+}
+
+@media screen and (max-width: 780px) {
+  .info__logo {
+    margin: 0 auto;
+  }
+}

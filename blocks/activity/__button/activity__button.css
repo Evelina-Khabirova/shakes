@@ -1,0 +1,40 @@
+.activity__button {
+  margin: 0 45px 0 0;
+  width: 270px;
+  height: 65px;
+  background-color: #34BBDA;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.activity__button:hover {
+  opacity: .3;
+}
+
+@media screen and (max-width: 970px) {
+  .activity__button {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .activity__button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    width: 194px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

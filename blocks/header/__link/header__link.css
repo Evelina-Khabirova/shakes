@@ -1,0 +1,29 @@
+.header__link {
+  margin: 0;
+  padding: 0 13px;
+  font-family: 'Gotham', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  cursor: pointer;
+}
+
+.header__link:hover {
+  opacity: .3;
+}
+
+.header__link:first-child {
+  border-left: 0px;
+}
+
+@media screen and (max-width: 970px) {
+  .header__link {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

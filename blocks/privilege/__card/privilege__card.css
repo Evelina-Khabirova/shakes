@@ -1,0 +1,8 @@
+.privilege__card {
+  list-style-type: none;
+  background-color: #272627;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

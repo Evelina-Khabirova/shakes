@@ -1,0 +1,31 @@
+.privilege__title {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  font-family: 'Overpass';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+@media screen and (max-width: 1300px) {
+  .privilege__title {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .privilege__title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .privilege__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

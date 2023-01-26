@@ -1,0 +1,37 @@
+.privilege__card-box {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 102px);
+  row-gap: 27px;
+  column-gap: 27px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .privilege__card-box {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 83px);
+    row-gap: 21px;
+    column-gap: 21px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .privilege__card-box {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .privilege__card-box {
+    row-gap: 19px;
+    column-gap: 19px;
+    grid-template-columns: repeat(2, 147px);
+    grid-template-rows: repeat(3, 74px);
+  }
+}

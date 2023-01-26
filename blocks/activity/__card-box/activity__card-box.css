@@ -1,0 +1,11 @@
+.activity__card-box {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 880px) {
+  .activity__card-box {
+    flex-direction: column;
+  }
+}

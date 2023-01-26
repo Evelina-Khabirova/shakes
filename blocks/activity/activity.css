@@ -1,0 +1,32 @@
+.activity {
+  margin: 78px auto 0;
+  padding: 0 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1580px) {
+  .activity {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .activity {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .activity {
+    margin-top: 28px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activity {
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.activity__img {
+  margin: 0 9px 0 0;
+  width: 54px;
+  height: 54px;
+}
+
+@media screen and (max-width: 970px) {
+  .activity__img {
+    margin-right: 14px;
+    width: 44px;
+    height: 52px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .activity__img {
+    margin-left: auto;
+    grid-column: 1;
+    grid-row: 2;
+    width: 27px;
+    height: 32px;
+  }
+}

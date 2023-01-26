@@ -1,0 +1,17 @@
+.figure__pink {
+  width: 500px;
+  height: 700px;
+  background-image: url(../../../images/pinkOval.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -3;
+}
+
+@media screen and (max-width: 620px) {
+  .figure__pink {
+    background-image: url(../../../images/pinkOvalMobail.png);
+  }
+}

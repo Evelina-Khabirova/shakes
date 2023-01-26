@@ -1,0 +1,36 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="44" height="44" fill="#F5F5F5"/>
+<g clip-path="url(#clip0_0_1)">
+<rect width="360" height="1685" transform="translate(-296 -10)" fill="#181818"/>
+<g filter="url(#filter0_f_0_1)">
+<ellipse cx="191.13" cy="77.5266" rx="191.13" ry="77.5266" transform="matrix(-0.944264 0.32919 0.945362 0.326022 131.512 -43.1872)" fill="#A42D5D"/>
+</g>
+<g filter="url(#filter1_f_0_1)">
+<ellipse cx="130.756" cy="156.997" rx="130.756" ry="156.997" transform="matrix(0.975105 0.221743 -0.826076 0.563559 -132.617 23.8733)" fill="#442C5F"/>
+</g>
+<rect width="44" height="44" rx="3" fill="#34BBDA"/>
+<g clip-path="url(#clip1_0_1)">
+<path d="M31.1667 21.816H12.8333C12.3733 21.816 12 21.4427 12 20.9827C12 20.5227 12.3733 20.1494 12.8333 20.1494H31.1667C31.6267 20.1494 32 20.5227 32 20.9827C32 21.4427 31.6267 21.816 31.1667 21.816Z" fill="white"/>
+<path d="M31.1667 15.4271H12.8333C12.3733 15.4271 12 15.0538 12 14.5938C12 14.1338 12.3733 13.7604 12.8333 13.7604H31.1667C31.6267 13.7604 32 14.1338 32 14.5938C32 15.0538 31.6267 15.4271 31.1667 15.4271Z" fill="white"/>
+<path d="M31.1667 28.2048H12.8333C12.3733 28.2048 12 27.8315 12 27.3715C12 26.9115 12.3733 26.5381 12.8333 26.5381H31.1667C31.6267 26.5381 32 26.9115 32 27.3715C32 27.8315 31.6267 28.2048 31.1667 28.2048Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_1" x="-470.516" y="-322.817" width="989.684" height="735.646" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<filter id="filter1_f_0_1" x="-466.676" y="-101.787" width="663.738" height="486.264" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_0_1"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="360" height="1685" fill="white" transform="translate(-296 -10)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="20" height="20" fill="white" transform="translate(12 11)"/>
+</clipPath>
+</defs>
+</svg>

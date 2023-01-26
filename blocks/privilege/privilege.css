@@ -1,0 +1,32 @@
+.privilege {
+  margin: 195px auto 302px;
+  padding: 0 230px;
+}
+
+@media screen and (max-width: 1580px) {
+  .privilege {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .privilege {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .privilege {
+    margin-top: 162px;
+    margin-bottom: 223px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .privilege {
+    margin-top: 38px;
+    margin-bottom: 93px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,22 @@
+.privilege__partner {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  grid-template-rows: repeat(1, minmax(min-content, max-content));
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+@media screen and (max-width: 860px) {
+  .privilege__partner {
+    margin: 15px auto 0;
+    grid-template-columns: (repeat(3, 1fr));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    row-gap: 14px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}

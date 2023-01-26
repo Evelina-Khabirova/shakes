@@ -1,0 +1,28 @@
+.privilege__list-box {
+  margin: 42px 80px 0 0;
+  padding: 0 0 0 20px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+@media screen and (max-width: 970px) {
+  .privilege__list-box {
+    margin-top: 0;
+    margin-right: 36px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .privilege__list-box {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .privilege__list-box {
+    margin-top: 32px;
+    margin-right: auto;
+  }
+}

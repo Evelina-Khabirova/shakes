@@ -1,0 +1,31 @@
+.privilege__button {
+  margin: 0;
+  width: 241px;
+  height: 55px;
+  background-color: #34BBDA;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.privilege__button:hover {
+  opacity: .3;
+}
+
+@media screen and (max-width: 500px) {
+  .privilege__button {
+    width: 194px;
+    height: 44;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

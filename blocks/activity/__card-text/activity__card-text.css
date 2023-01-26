@@ -1,0 +1,29 @@
+.activity__card-text {
+  margin: 10px 0;
+  padding: 0;
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1250px) {
+  .activity__card-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .activity__card-text {
+    margin: auto 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activity__card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
